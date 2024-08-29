@@ -6,12 +6,17 @@ function App() {
   const [notes, setNotes] = useState([
     {
       id: 1,
-      text: "Link in bio for my Frontend Interview Prep Course",
+      text: "Bhavin try moving this note",
     },
     {
       id: 2,
-      text: "Like this Video and Subscribe to Roadside Coder",
+      text: "Bhavin move this note over the other note",
     },
+    {
+      id: 3,
+      text: "Try refreshing the tab",
+    },
+    
   ]);
 
   const [note, setNote] = useState("");
