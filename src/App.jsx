@@ -6,11 +6,11 @@ function App() {
   const [notes, setNotes] = useState([
     {
       id: 1,
-      text: "Kurpa try moving this note",
+      text: "Ragnar try moving this note",
     },
     {
       id: 2,
-      text: "Kurpa move this note over the other note",
+      text: "Ragnar move this note over the other note",
     },
     {
       id: 3,
