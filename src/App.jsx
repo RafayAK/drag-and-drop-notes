@@ -6,11 +6,11 @@ function App() {
   const [notes, setNotes] = useState([
     {
       id: 1,
-      text: "Ragnar try moving this note",
+      text: "Stephen try moving this note",
     },
     {
       id: 2,
-      text: "Ragnar move this note over the other note",
+      text: "Stephen move this note over the other note",
     },
     {
       id: 3,
@@ -46,6 +46,7 @@ function App() {
         </button>
       </div>
       <Notes notes={notes} setNotes={setNotes} />
+      <div className="watermark">Rafay @ AiCEO</div>
     </div>
   );
 }
